@@ -1,0 +1,15 @@
+{% extends "base.html"%} {% block title%} Question {% endblock %} {% block content
+    %}
+
+    <h1 align="center">Questions</h1>
+    <form method="POST">
+        <br/>
+        <textarea name="question" id="question" class="form-control", placeholder="Your Question Here"></textarea>
+        <br />
+        <div align="center">
+            <button type="submit" class="btn btn-primary">Post Question</button>   
+        </div>
+        <br/>
+    </form>
+{% endblock %}
+    
